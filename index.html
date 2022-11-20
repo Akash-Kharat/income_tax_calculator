@@ -15,7 +15,31 @@
     <h3>Income Tax Calculator</h3>
     <div class="card">
         <section class="year_age">
-
+            <div class="row g-2 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Assessment year</label>
+                </div>
+                <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="curr" selected>2022-2023</option>
+                        <option value="next" >2023-2024</option>
+                        <option value="prev" >2021-2022</option>
+                        
+                    </select>    
+                </div>
+            </div> 
+            <div class="row g-2 align-items-center">
+                <div class="col-auto">
+                  <label for="inputPassword6" class="col-form-label">Age category</label>
+                </div>
+                <div class="col-auto">
+                    <select class="form-select" aria-label="Default select example">
+                        <option value="1" selected>Below 60</option>
+                        <option value="2">60 or Above 60</option>
+                        <option value="3">80 or Above 80</option>
+                    </select>    
+                </div>
+            </div> 
         </section>
         <section class="income">
             <div>
@@ -27,7 +51,7 @@
                 <div class="card card-body">
                     <div class="row g-2 align-items-center">
                         <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Password</label>
+                          <label for="inputPassword6" class="col-form-label">Gross salary income</label>
                         </div>
                         <div class="col-auto">
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -35,7 +59,7 @@
                     </div>  
                     <div class="row g-2 align-items-center">
                         <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Password</label>
+                          <label for="inputPassword6" class="col-form-label">Annual income from other sources</label>
                         </div>
                         <div class="col-auto">
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -43,7 +67,7 @@
                     </div> 
                     <div class="row g-2 align-items-center">
                         <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Password</label>
+                          <label for="inputPassword6" class="col-form-label">Annual income from interest</label>
                         </div>
                         <div class="col-auto">
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -51,7 +75,7 @@
                     </div> 
                     <div class="row g-2 align-items-center">
                         <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Password</label>
+                          <label for="inputPassword6" class="col-form-label">Annual income from let-out house property (rental income)</label>
                         </div>
                         <div class="col-auto">
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -59,7 +83,7 @@
                     </div> 
                     <div class="row g-2 align-items-center">
                         <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Password</label>
+                          <label for="inputPassword6" class="col-form-label">Annual interest paid on home loan (self-occupied)</label>
                         </div>
                         <div class="col-auto">
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -67,7 +91,7 @@
                     </div> 
                     <div class="row g-2 align-items-center">
                         <div class="col-auto">
-                          <label for="inputPassword6" class="col-form-label">Password</label>
+                          <label for="inputPassword6" class="col-form-label">Annual interest paid on home loan (let-out)</label>
                         </div>
                         <div class="col-auto">
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -86,7 +110,7 @@
                     <div class="card card-body">
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Basic deductions u/s 80C</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -94,7 +118,7 @@
                         </div>  
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Contribution to NPS u/s 80CCD(1B)</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -102,7 +126,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Medical Insurance Premium u/s 80D</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -110,7 +134,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Donation to charity u/s 80G</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -118,7 +142,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Interest on Educational Loan u/s 80E</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -126,7 +150,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Interest on deposits in saving account u/s 80TTA/TTB</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -145,7 +169,7 @@
                     <div class="card card-body">
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Basic salary received per annum</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -161,7 +185,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Dearness allowance (DA) received per annum</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -169,7 +193,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">HRA received per annum</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -177,7 +201,7 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Total rent paid per annum</label>
                             </div>
                             <div class="col-auto">
                               <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
@@ -185,14 +209,21 @@
                         </div> 
                         <div class="row g-2 align-items-center">
                             <div class="col-auto">
-                              <label for="inputPassword6" class="col-form-label">Password</label>
+                              <label for="inputPassword6" class="col-form-label">Do you live in a metro city?</label>
                             </div>
                             <div class="col-auto">
-                              <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                                <select class="form-select" aria-label="Default select example">
+                                    <option value="Yes" selected>Yes</option>
+                                    <option value="No">No</option>
+                                </select>    
                             </div>
                         </div> 
                     </div>
                 </div>
+        </section>
+        <section class="output">
+            <!-- add line as required.. -->
+            
         </section>
     </div>
 </body>
